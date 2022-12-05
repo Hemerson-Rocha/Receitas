@@ -34,12 +34,13 @@ source .venv/bin/activate
 Instalar as dependencias e abrir o banco de dados
 ```
 pip install -r requirements.txt
+python manage.py makemigrations
 python manage.py migrate
 ```
 
 Rodar o projeto
 ```
-python -m pip install -r requirement.txt
+python manage.py runserver
 ```
 
 Depois acesse o link gerado 
