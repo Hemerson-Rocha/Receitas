@@ -19,6 +19,26 @@ Python 3.
 
 Como instalar:
 
-Ctrl + j.
 
-No terminal execute o seguinte code - python -m pip install -r requirement.txt
+'''
+git clone https://github.com/Hemerson-Rocha/Receitas.git
+'''
+
+Instalar e ativar a venv
+'''
+python3 -m venv .venv
+source .venv/bin/activate
+'''
+
+Instalar as dependencias e abrir o banco de dados
+'''
+pip install -r requirements.txt
+python manage.py migrate
+'''
+
+Rodar o projeto
+'''
+python -m pip install -r requirement.txt
+'''
+
+Depois acesse o link gerado 
