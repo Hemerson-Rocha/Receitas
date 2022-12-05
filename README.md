@@ -11,7 +11,9 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 ### 📋 Pré-requisitos
 
 Você precisa para instalar:
+
 Editor de codigo. 
+
 Python 3.
 
 Como instalar:
