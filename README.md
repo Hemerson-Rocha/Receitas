@@ -27,8 +27,8 @@ No terminal powershell:
 
 Instalar e ativar a venv
 ```
-python3 -m venv .venv
-source .venv/bin/activate
+python -m venv venv
+.\venv\Scripts\Activate.ps1
 ```
 
 Instalar as dependencias e abrir o banco de dados
