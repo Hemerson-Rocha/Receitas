@@ -17,12 +17,13 @@ Editor de codigo.
 Python 3.
 
 
-Como instalar:
+### 🔧 Como instalar:
 
 
 ```
 git clone https://github.com/Hemerson-Rocha/Receitas.git
 ```
+No terminal powershell:
 
 Instalar e ativar a venv
 ```
