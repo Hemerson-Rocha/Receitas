@@ -16,6 +16,9 @@ Editor de codigo.
 
 Python 3.
 
+
 Como instalar:
+
 Ctrl + j.
+
 No terminal execute o seguinte code - python -m pip install -r requirement.txt
