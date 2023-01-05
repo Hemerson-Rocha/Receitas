@@ -1,6 +1,6 @@
 ﻿asgiref==3.5.2
 dj-database-url==1.2.0
-Django==4.1.0
+Django==3.2.16
 django-tempus-dominus==5.1.2.17
 django-widget-tweaks==1.4.12
 gunicorn==20.1.0
