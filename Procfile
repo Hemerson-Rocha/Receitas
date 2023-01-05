@@ -1,1 +1,1 @@
-web: gunicorn alurareceita.wsgi --log-fife -
+web: gunicorn alurareceita.wsgi
