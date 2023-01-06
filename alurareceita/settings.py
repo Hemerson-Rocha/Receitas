@@ -18,6 +18,8 @@ import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+FILE_CHARSET = 'UTF-8'
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
@@ -173,3 +175,8 @@ MESSAGE_TAGS = {
 
 PROJECT_ROOT = os.path.dirname(__file__)
 sys.path.insert(0, os.path.join(PROJECT_ROOT, '../apps'))
+
+
+
+# django.conf.settings.FILE_CHARSET = UTF-8
+# self.charset = settings.FILE_CHARSET
