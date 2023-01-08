@@ -86,8 +86,13 @@ WSGI_APPLICATION = 'alurareceita.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 
+# DATABASES = {
+#     'default': dj_database_url.config(         default='postgresql://postgres:postgres@localhost:5432/receita', conn_max_age=600)}
+
 DATABASES = {
-    'default': dj_database_url.config(         default='postgresql://postgres:postgres@localhost:5432/receita', conn_max_age=600)}
+    'default': dj_database_url.config(         default='postgres://hemer:CrxKe5oqFDpp0IS7COBWD8XkjbkE2mQs@dpg-cess6vha6gdggmle6sug-a/receita', conn_max_age=600)}
+
+    # postgres://hemer:CrxKe5oqFDpp0IS7COBWD8XkjbkE2mQs@dpg-cess6vha6gdggmle6sug-a/receita
 
 # DATABASES = {
 #     'default': {
