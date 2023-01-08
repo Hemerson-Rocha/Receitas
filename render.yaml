@@ -1,6 +1,6 @@
 databases:
   - name: receita
-    databaseName: receitas
+    databaseName: receita
     user: hemer
 
 services:
